@@ -5,9 +5,9 @@ import java.io.*;
 public class RMRBParse {
 	public static void main(String[] args) {
 		try (BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(
-				"train_file/corpus/rmrb.txt")));
+				"D:/DocForStudy/wordExample/example.txt")));
 			 BufferedOutputStream fos = new BufferedOutputStream(new FileOutputStream(
-					 "train_file/corpus/rmrb_new.txt"))) {
+					 "D:/DocForStudy/wordExample/output.txt"))) {
 			String line = null;
 			StringBuilder sb = null;
 			int skip = 0;
