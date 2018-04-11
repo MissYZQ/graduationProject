@@ -29,3 +29,4 @@ model.wv.save_word2vec_format("word2vec_result")  # 输出词向量模型文件
 
 
 
+
