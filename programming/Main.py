@@ -15,7 +15,7 @@ import logging
 """
 logging.basicConfig(format='%(asctime)s:%(levelname)s: %(message)s', level=logging.INFO)
 sentences = word2vec.Text8Corpus(u"segment_result.txt")
-model = word2vec.Word2Vec(sentences, min_count=1)
+model = word2vec.Word2Vec(sentences, min_count=1, size=50)
 # model.save("word2vec_result.txt")  # 保存模型文件
 model.wv.save_word2vec_format("word2vec_result")  # 输出词向量模型文件
 # print("1----", model)
