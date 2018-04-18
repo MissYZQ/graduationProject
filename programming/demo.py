@@ -7,7 +7,6 @@
 from gensim.models import word2vec
 import logging
 
-
 """
 
 对分词加过进行word2vec操作，得到词向量训练结果
